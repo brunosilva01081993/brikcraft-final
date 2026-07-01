@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-bg {
+  background-color: #000000;
+}
+
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-menu a {
+  font-size: 1.187rem;
+  color: #ffffff;
+  padding: 16px 0px;
+  display: inline-block;
+  position: relative;
+}
+
+.header-menu a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: #ffffff;
+  margin-top: 5px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-menu a:hover:after {
+  width: 100%;
+}
+
+.introducao-bg {
+  background-color: #000000;
+}
+
+.introducao-container {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bicicletas-introducao {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  justify-content: center;
+}
+
+.bicicletas-introducao h1 {
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.bicicletas-introducao p {
+  color: #ffffff;
+  text-align: left;
+}
+
+.bicicletas-introducao img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  align-self: flex-start;
+}
