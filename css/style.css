@@ -15,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px 20px;
 }
 
 .header-menu {
@@ -31,6 +31,11 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .header-menu a {
@@ -60,13 +65,16 @@ a {
   background-color: #000000;
 }
 
-.introducao-container {
+.introducao {
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   max-width: 1200px;
   display: grid;
+  gap: 0px 40px;
   grid-template-columns: 1fr 1fr;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .bicicletas-introducao {
@@ -83,15 +91,33 @@ a {
 }
 
 .bicicletas-introducao p {
-  color: #ffffff;
+  color: #c2c2c2;
   text-align: left;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-top: 10px;
 }
 
-.bicicletas-introducao img {
-  max-width: 100%;
-  display: block;
-}
-
-button {
+.btn {
+  color: #332200;
   align-self: flex-start;
+  padding: 16px 32px;
+  font-size: 1.25rem;
+  border-radius: 4px;
+  background: linear-gradient(#ffbf00, #e09601);
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 0px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+  transform: translatey(-2px);
+}
+
+.ponto-amarelo {
+  font-size: 4rem;
+  color: #faaf0f;
 }
