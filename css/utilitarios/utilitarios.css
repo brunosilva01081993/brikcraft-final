@@ -1,0 +1,24 @@
+.btn {
+  color: #332200;
+  align-self: flex-start;
+  padding: 16px 32px;
+  font-size: 1.25rem;
+  border-radius: 50px;
+  background: linear-gradient(#ffbf00, #e09601);
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 1);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+  transform: translatey(-2px);
+}
+
+.ponto-amarelo {
+  font-size: 4rem;
+  color: #faaf0f;
+}

@@ -1,0 +1,42 @@
+.introducao-bg {
+  background-color: #000000;
+  box-shadow: inset 0px -120px #ffffff;
+}
+
+.introducao {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  max-width: 1600px;
+  display: grid;
+  gap: 0px 40px;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bicicletas-introducao {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 200px;
+  gap: 40px;
+}
+
+.bicicletas-introducao h1 {
+  color: #ffffff;
+  font-size: 5rem;
+}
+
+.bicicletas-introducao p {
+  color: #c2c2c2;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+.introducao img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}

@@ -1,74 +1,8 @@
 @import "./global/global.css";
 @import "./global/header.css";
 
-.introducao-bg {
-  background-color: #000000;
-  box-shadow: inset 0px -120px #ffffff;
-}
+/* INTRODUÇÃO */
+@import "./home/introdução.css";
 
-.introducao {
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
-  max-width: 1200px;
-  display: grid;
-  gap: 0px 40px;
-  grid-template-columns: 1fr 1fr;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.bicicletas-introducao {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  text-align: left;
-  justify-content: center;
-  padding-bottom: 200px;
-  margin-top: 200px;
-}
-
-.bicicletas-introducao h1 {
-  color: #ffffff;
-  font-size: 4rem;
-}
-
-.bicicletas-introducao p {
-  color: #c2c2c2;
-  text-align: left;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  margin-top: 10px;
-}
-
-.btn {
-  color: #332200;
-  align-self: flex-start;
-  padding: 16px 32px;
-  font-size: 1.25rem;
-  border-radius: 4px;
-  background: linear-gradient(#ffbf00, #e09601);
-  font-weight: bold;
-  text-transform: uppercase;
-  border: 0px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 1);
-  display: inline-block;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background: linear-gradient(#ffb60d, #e59317);
-  transform: translatey(-2px);
-}
-
-.introducao img {
-  margin-bottom: -120px;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 4px;
-}
-
-.ponto-amarelo {
-  font-size: 4rem;
-  color: #faaf0f;
-}
+/* UTILITÁRIOS */
+@import "./utilitarios/utilitarios.css";

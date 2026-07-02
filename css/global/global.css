@@ -4,6 +4,12 @@ body {
   height: 2000px;
 }
 
+h1,
+h2,
+p {
+  margin: 0px;
+}
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -17,4 +23,5 @@ a {
 img {
   max-width: 100%;
   display: block;
+  max-width: 100%;
 }
