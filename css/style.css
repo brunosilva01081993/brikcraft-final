@@ -5,4 +5,10 @@
 @import "./home/introdução.css";
 
 /* UTILITÁRIOS */
-@import "./utilitarios/utilitarios.css";
+@import "./utilitarios/componentes.css";
+
+/* TIPOGRAFIA */
+@import "./utilitarios/tipografia.css";
+
+/* ARTIGO */
+@import "./bicicletas/bicicletas.css";
