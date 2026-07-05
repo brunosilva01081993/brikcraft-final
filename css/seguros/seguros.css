@@ -1,0 +1,115 @@
+.seguros-bg {
+  background-color: #111111;
+  height: 1200px;
+}
+
+.seguros-bg h2 {
+  margin: 0 auto;
+  max-width: 1200px;
+  color: #ffffff;
+  padding-top: 60px;
+  display: block;
+  padding-bottom: 60px;
+}
+
+.seguros-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.seguros-item-1,
+.seguros-item-2 {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  background-color: #000000;
+  border-radius: 50px;
+  font-size: 2.25rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.seguros-item-2 {
+  padding: 40px 32px 80px 60px;
+}
+
+.seguros-item-1 {
+  padding: 80px 32px 80px 60px;
+  box-shadow:
+    inset 0 40px #111111,
+    inset 0 -40px #111111;
+}
+
+.seguros-item-1 h3 {
+  color: #9b9a9a;
+  margin-bottom: 40px;
+}
+
+.seguros-item-2 h3 {
+  color: #f7ab10;
+  margin-bottom: 40px;
+}
+
+.seguros-preco {
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 2.25rem;
+}
+
+.seguros-container li {
+  color: #ffffff;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.plano {
+  width: 100%;
+  display: inline-block;
+}
+
+.seguros-mensalidade {
+  font-size: 0.87rem;
+  color: #c7c7c7;
+  text-align: end;
+}
+
+.seguros-container li::before {
+  content: "";
+  background-image: url(/img/icones/lista.svg);
+  width: 16px;
+  height: 16px;
+  left: -20px;
+  top: 5px;
+  position: absolute;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.btn-1,
+.btn-2 {
+  grid-column: 1;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 50px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.btn-1 {
+  background-color: #505050;
+  color: #ffffff;
+}
+
+.btn-2 {
+  background-color: #f7ab10;
+  color: #000000;
+  margin-top: 20px;
+}

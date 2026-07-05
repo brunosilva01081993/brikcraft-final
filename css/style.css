@@ -14,43 +14,13 @@
 @import "./bicicletas/bicicletas.css";
 
 /* TECNOLOGIA */
-@import "./tecnologia/tecnologia.css";
+@import "./home/tecnologia.css";
 
-.parceiros {
-  padding-top: 60px;
-  padding-bottom: 120px;
-  height: 1000px;
-}
+/* PARCEIROS */
+@import "./home/parceiros.css";
 
-.parceiros h3 {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
-}
-.parceiros ul {
-  max-width: 1400px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding-top: 60px;
-}
+/* DEPOIMENTO */
+@import "./home/depoimento.css";
 
-.parceiros li {
-  padding: 32px;
-  border-left: 2px solid #eeeeee;
-  display: grid;
-}
-
-.parceiros img {
-  margin: auto;
-}
-
-.parceiros li:first-child,
-.parceiros li:nth-child(5) {
-  border-left: none;
-}
-
-.parceiros li:nth-child(n + 5) {
-  border-top: 2px solid #eeeeee;
-}
+/* SEGUROS */
+@import "./seguros/seguros.css";

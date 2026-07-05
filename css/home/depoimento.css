@@ -1,0 +1,53 @@
+.depoimento-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(226, 166, 1);
+}
+
+.depoimento p {
+  font-weight: 900;
+  font-style: italic;
+  font-family: "poppiens";
+  font-size: 2.25rem;
+  font-family: "Merriweather";
+  margin-bottom: 32px;
+  max-width: 32ch;
+  position: relative;
+  color: rgb(53, 37, 3);
+}
+
+.depoimento p::before {
+  content: "“";
+  font-size: 5rem;
+  position: absolute;
+  color: rgb(231, 194, 72);
+  left: -50px;
+  top: -20px;
+}
+
+.depoimento p::after {
+  content: "”";
+  font-size: 5rem;
+  position: absolute;
+  color: rgb(231, 194, 72);
+}
+
+.depoimento {
+  padding: 40px 40px 200px 80px;
+  align-self: end;
+}
+
+.depoimento img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.nome {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: rgb(82, 57, 4);
+  display: block;
+  text-align: end;
+}
