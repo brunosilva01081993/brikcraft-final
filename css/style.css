@@ -23,4 +23,7 @@
 @import "./home/depoimento.css";
 
 /* SEGUROS */
-@import "./seguros/seguros.css";
+@import "./home/seguros.css";
+
+/* FOOTER */
+@import "./home/footer.css";
