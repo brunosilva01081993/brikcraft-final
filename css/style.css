@@ -27,3 +27,6 @@
 
 /* FOOTER */
 @import "./home/footer.css";
+
+/* TERMOS */
+@import "./termos/termos.css";

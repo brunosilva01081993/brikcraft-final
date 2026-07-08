@@ -1,6 +1,5 @@
 .footer-bg {
   background-color: #000000;
-  height: 800px;
 }
 
 .footer-container {
@@ -9,8 +8,10 @@
   gap: 40px;
   margin: 0 auto;
   max-width: 1200px;
-  padding-top: 60px;
+  padding-right: 20px;
+  padding: 60px 20px;
   padding-bottom: 60px;
+  box-sizing: border-box;
 }
 
 .footer-container h5 {
