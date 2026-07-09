@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 20px;
+  padding: 20px;
 }
 
 .header-menu {
@@ -21,7 +21,7 @@
 .header-menu a {
   font-size: 1.187rem;
   color: #ffffff;
-  padding: 16px 0px;
+  padding: 12px 0px;
   display: inline-block;
   position: relative;
   font-weight: bold;

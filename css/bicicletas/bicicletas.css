@@ -69,3 +69,100 @@
 .bicicletas-lista li span {
   padding-left: 20px;
 }
+
+.bicicleta-bloco {
+  background-color: #ffffff;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bicicletas-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: start;
+  padding: 60px 20px;
+  gap: 40px;
+}
+
+.descriçao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.descriçao h2 {
+  padding: 20px 0;
+  grid-column: 1/-1;
+}
+
+.descriçao p {
+  grid-column: 1/-1;
+  margin-bottom: 20px;
+}
+
+.descriçao ul {
+  display: grid;
+  gap: 10px;
+}
+
+.bicicletas-bg {
+  background-image: linear-gradient(
+    to right,
+    #ffffff calc(50% - 300px),
+    #000000 0%
+  );
+}
+
+.descriçao li {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.35;
+  font-family: "poppins", sans-serif;
+  color: #747373;
+  display: flex;
+  align-items: center;
+  max-height: max-content;
+}
+
+.descriçao li img {
+  height: 24px;
+  width: 24px;
+  padding-right: 8px;
+}
+
+.botao-seta {
+  font-family: "poppins", Sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  place-self: end;
+  padding: 16px 32px;
+  color: #000000;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.botao-seta::after {
+  content: "";
+  background-image: url(/img/icones/seta.svg);
+  width: 18px;
+  height: 10px;
+  margin-left: 10px;
+  transition: 0.2s ease;
+}
+
+.descriçao a:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+}
+
+.botao-seta:hover::after {
+  transform: translatex(5px);
+}
