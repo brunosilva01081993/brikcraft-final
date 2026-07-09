@@ -108,14 +108,6 @@
   gap: 10px;
 }
 
-.bicicletas-bg {
-  background-image: linear-gradient(
-    to right,
-    #ffffff calc(50% - 300px),
-    #000000 0%
-  );
-}
-
 .descriçao li {
   font-size: 1.25rem;
   font-weight: 500;
