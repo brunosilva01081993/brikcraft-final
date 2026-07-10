@@ -16,6 +16,7 @@
 .seguros-container h2 {
   color: #ffffff;
   grid-column: 1/-1;
+  margin-top: -30px;
 }
 
 .seguros-item h3 {
@@ -71,7 +72,7 @@
 }
 
 .prata {
-  color: #555454;
+  color: #999797;
 }
 
 .ouro {

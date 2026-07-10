@@ -10,8 +10,11 @@
 }
 
 .texto-medio {
+  font-weight: 700;
+  text-transform: uppercase;
   font-size: 1.5rem;
   line-height: 1.5;
   margin: 0px;
   margin-top: 10px;
+  color: #999797;
 }
