@@ -33,3 +33,6 @@
 
 /* VANTAGENS */
 @import "./seguros/vantagens.css";
+
+/* CONTATO */
+@import "./contato/contato.css";
