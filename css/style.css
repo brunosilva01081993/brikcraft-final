@@ -36,3 +36,6 @@
 
 /* CONTATO */
 @import "./contato/contato.css";
+
+/* ORCAMENTO */
+@import "./utilitarios/orcamento.css";
