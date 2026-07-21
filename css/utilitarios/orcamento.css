@@ -1,3 +1,7 @@
+.orcamento-bg {
+  box-shadow: inset 0 350px #111111;
+}
+
 .orcamento-container {
   max-width: 1200px;
   margin-left: auto;
@@ -8,7 +12,7 @@
   grid-template-columns: 5fr 7fr;
   justify-content: center;
   box-sizing: border-box;
-  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .orcamento-container h2 {
@@ -38,6 +42,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
 }
 
 .orcamento-dados h2 {
