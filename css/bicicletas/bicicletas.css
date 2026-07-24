@@ -88,9 +88,24 @@
   gap: 40px;
 }
 
+/* .bicicleta-imagem-preco img {
+  display: inline-block;
+  position: relative;
+}
+
+.bicicleta-imagem-preco span {
+  position: absolute;
+  right: 477px;
+  margin-top: 10px;
+  background: #000000;
+  padding: 10px;
+  color: #ffffff;
+} */
+
 .descriçao {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: max-content;
 }
 
 .descriçao h2 {
@@ -109,7 +124,7 @@
 }
 
 .descriçao li {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 1.35;
   font-family: "poppins", sans-serif;
@@ -127,7 +142,7 @@
 
 .botao-seta {
   font-family: "poppins", Sans-serif;
-  font-size: 1.2rem;
+  font-size: 0.87rem;
   font-weight: 500;
   text-transform: uppercase;
   display: flex;
