@@ -39,3 +39,20 @@
 
 /* ORCAMENTO */
 @import "./utilitarios/orcamento.css";
+
+/* .titulo-preco {
+}
+
+.bicicletas-conteudo {
+  padding-top: 0;
+}
+
+.bicicleta-imagem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+} */
+
+.nimbus {
+  grid-column: 1/-1;
+}
