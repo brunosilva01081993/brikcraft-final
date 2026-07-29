@@ -165,11 +165,18 @@
   border-radius: 5px;
 }
 
-.bicicleta-lista2 ul li {
+.bicicleta-lista2 li {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #292929;
+  padding: 0 4px;
 }
 
 .bicicleta-lista2 span {
   color: #ffffff;
+}
+
+.bicicleta-lista2 ul li:first-child {
+  border-top: none;
 }
