@@ -70,16 +70,6 @@
   padding-left: 20px;
 }
 
-/* .bicicleta-bloco {
-  background-color: #ffffff;
-  max-width: 1200px;
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-} */
-
 .bicicletas-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -96,12 +86,12 @@
 
 .bicicletas-conteudo h2::before {
   content: "";
-  width: 15px;
-  height: 10px;
+  width: 12px;
+  height: 8px;
   background-color: #ffbf00;
   display: block;
   margin-top: -20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .bicicletas-conteudo img {

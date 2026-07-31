@@ -127,6 +127,10 @@
   gap: 8px;
 }
 
+.bicicletas-conteudo h2 {
+  font-size: 2rem;
+}
+
 .bicicleta-lista ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -161,7 +165,7 @@
   flex-direction: column;
   padding-top: 20px;
   background-color: #000000;
-  padding: 40px;
+  padding: 30px 30px;
   border-radius: 5px;
 }
 
@@ -170,7 +174,15 @@
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #292929;
-  padding: 0 4px;
+}
+
+.bicicleta-lista2 li span,
+.bicicleta-lista2 li p {
+  font-size: 0.97rem;
+}
+
+.bicicleta-lista2 li span {
+  color: #bdbbbb;
 }
 
 .bicicleta-lista2 span {
