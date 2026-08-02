@@ -32,14 +32,36 @@
     <div class="orcamento-container">
       <div class="orcamento-opcoes">
         <h2>Bikcraft ou Seguro?</h2>
+
+        <label class="opcao-card" for="bikcraft">
+          <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
+          <span>Bikcraft</span>
+        </label>
+
+        <label class="opcao-card" for="seguro">
+          <input type="radio" name="tipo" value="seguro" id="seguro">
+          <span>Seguro</span>
+        </label>
+
+        <!-- O restante do código abaixo (Escolha o Plano) continua igual -->
+
+        <!-- <div>
+          <h2>Escolha a sua:</h2>
+          <label for="nimbus stark">Nimbus Stark</label>
+          <label for="magic might">Magic Might</label>
+          <label for="nebula cosmic">Nebula Cosmic</label>
+        </div> -->
         <div>
-          <label for="bikcraft">Bikcraft</label>
-          <label for="seguro">Seguro</label>
+          <h2>Escolha o Plano:</h2>
+          <div>
+            <input type="radio" name="tipo" value="prata" id="prata">
+            <label for="prata">Prata <span>R$ 199</span></label>
+          </div>
+          <div>
+            <input type="radio" name="tipo" value="ouro" id="ouro">
+            <label for="pouro">Ouro <span>R$ 299</span></label>
+          </div>
         </div>
-        <h2>Escolha a sua:</h2>
-        <label for="nimbus stark">Nimbus Stark</label>
-        <label for="magic might">Magic Might</label>
-        <label for="nebula cosmic">Nebula Cosmic</label>
       </div>
       <div class="orcamento-dados">
         <h2>Dados Pessoais</h2>
