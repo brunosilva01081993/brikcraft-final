@@ -33,21 +33,22 @@
 
       <aside class="orcamento-opcoes">
 
-        <h2>Bikcraft ou Seguro?</h2>
 
 
 
-        <input type="radio" id="bikcraft" name="categoria">
-        <label class="opcao-card" for="bikcraft">
-          Bikcraft
-        </label>
+        <div class="categoria">
+          <h2>Bikcraft ou Seguro?</h2>
 
 
+          <label class="opcao-card" for="bikcraft">
+            <input type="radio" id="bikcraft" name="categoria" value="bikcraft">
+            Bikcraft</label>
+          <label class="opcao-card" for="seguro">
+            <input type="radio" id="seguro" name="categoria" value="seguro">
+            Seguro</label>
 
-        <input type="radio" id="seguro" name="categoria">
-        <label class="opcao-card" for="seguro">
-          Seguro
-        </label>
+        </div>
+
 
 
 
@@ -76,15 +77,19 @@
 
           <h2 class="escolha">Escolha seu plano</h2>
 
+
           <label>
             <input type="radio" name="plano">
             <span>Prata</span>
           </label>
 
+
+
           <label>
             <input type="radio" name="plano">
             <span>Ouro</span>
           </label>
+
 
         </div>
 
